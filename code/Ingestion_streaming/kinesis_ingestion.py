@@ -6,7 +6,7 @@ kinesis_config = {
     "streamName": "<telematics-stream-name>",
     "region": "<region>",
     "serviceCredential": "<kinesis-service-credential-name>",
-    "initialPosition": "earlierst"
+    "initialPosition": "earliest"
 }
 
 payload_schema = MapType(StringType(), StringType())
